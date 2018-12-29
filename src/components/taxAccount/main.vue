@@ -32,8 +32,8 @@
                             </row>
                         </radio-group> -->
                         <row type="flex" justify="end">
-                            <Col span="10"><Button round size="small" @click="childrenUseNum!=1?childrenUseNum=1:childrenUseNum=''" :type="{ primary: childrenUseNum == 1, default:childrenUseNum != 1}">共同使用</Button></Col>
-                            <Col span="10"><Button round size="small" @click="childrenUseNum!=2?childrenUseNum=2:childrenUseNum=''" :type="{ primary: childrenUseNum == 2, default:childrenUseNum != 2}">单独使用</Button></Col>
+                            <Col span="10"><Button round size="small" @click="childrenUseNum!=1?childrenUseNum=1:childrenUseNum=''" :type="{ primary: childrenUseNum == 1, default:childrenUseNum != 1}">单独使用</Button></Col>
+                            <Col span="10"><Button round size="small" @click="childrenUseNum!=2?childrenUseNum=2:childrenUseNum=''" :type="{ primary: childrenUseNum == 2, default:childrenUseNum != 2}">共同使用</Button></Col>
                         </row>
                         
                     </cell>
