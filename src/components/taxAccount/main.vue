@@ -198,6 +198,28 @@ export default {
             if(this.brotherNum===''){
                 this.brotherNum = null
             }
+        },
+        childrenNum(){
+            if(this.childrenNum == ""){
+                this.childrenUseNum = ""
+            }else{
+                if(this.childrenUseNum){
+                    return 
+                }else{
+                    this.childrenUseNum = 1
+                }
+            }
+        },
+        childrenUseNum(){
+            if(this.childrenUseNum == ""){
+                this.childrenNum = ""
+            }else{
+                if(this.childrenNum){
+                    return 
+                }else{
+                    this.childrenNum = 1
+                }
+            }
         }
     },
     computed:{
